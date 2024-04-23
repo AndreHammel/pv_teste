@@ -63,7 +63,7 @@ export default function FirstSection() {
         justify='center'
         align='center'
         w='full'
-        mt='10px'
+        //mt='10px'
         gap={10}
         position='relative'
       >
