@@ -72,6 +72,7 @@ export default function Header() {
               borderColor='primary.300'
               background='transparent'
               borderRadius='xl'
+              color='red.500'
               _hover={{ background: 'primary.300' }}
             >
               <Icon
