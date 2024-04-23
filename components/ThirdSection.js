@@ -5,7 +5,7 @@ import { demoVideoLink } from './../contants/contants'
 export default function ThirdSection() {
 
   return (
-    <Flex w='full' justify='center' mb={20} mt={40} scrollMarginTop={24} id="demo">
+    <Flex w='full' justify='center' mb={20} mt={40} scrollMarginTop={24} id="demo" bg='#131215'>
       <Flex
         bg='#131215'
         direction='column'
@@ -20,12 +20,13 @@ export default function ThirdSection() {
           fontWeight='extrabold'
           fontFamily='orbitron'
           position='relative'
+          color='gray.200'
         >
           Veja uma Demonstração Rápida:
         </Text>
         <Flex direction={['column', 'column', 'column', 'row']} justify='space-between' w='full' >
           <Text mb={[2, 8, 20]} fontSize={[16, 16, 16, 20]}
-            w={[300, 400, 600, 1000]} >
+            w={[300, 400, 600, 1000]} color='gray.200'>
             Descubra em apenas 10 minutos como criar um chatbot eficiente! Nosso vídeo de demonstração simplifica o processo, tornando a automação do chat fácil e rápida. Potencialize a interação com os usuários de forma inovadora.
           </Text>
         </Flex>
