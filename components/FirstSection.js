@@ -38,15 +38,16 @@ export default function FirstSection() {
           gap={32}
         >
           <Flex direction='column' w={[200, 300, 400, 600]} gap={4} >
-            <Text fontSize={[20, 20, 20, 40]} fontWeight='extrabold' fontFamily='orbitron'>Conquiste o engajamento do seu público com nosso chatbot inteligente e inovador</Text>
-            <Text fontSize={[16, 16, 16, 20]}>Otimize seu tempo e amplie sua eficiência com nosso revolucionário aplicativo de automatização de mensagens. Simplifique suas interações e alcance resultados incríveis com apenas alguns cliques!</Text>
+            <Text color='gray.200' fontSize={[20, 20, 20, 40]} fontWeight='extrabold' fontFamily='orbitron'>Conquiste o engajamento do seu público com nosso chatbot inteligente e inovador</Text>
+            <Text color='gray.200' fontSize={[16, 16, 16, 20]}>Otimize seu tempo e amplie sua eficiência com nosso revolucionário aplicativo de automatização de mensagens. Simplifique suas interações e alcance resultados incríveis com apenas alguns cliques!</Text>
             <Link href={paymentLink}>
               <Button
                 size="lg"
                 fontSize='1rem'
                 textTransform='uppercase'
                 fontWeight='900'
-                background='primary.500'
+                background='primary.300'
+                color='gray.200'
                 _hover={{ background: 'primary.300' }}
               >
                 comece já
