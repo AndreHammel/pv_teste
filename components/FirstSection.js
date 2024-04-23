@@ -74,28 +74,29 @@ export default function FirstSection() {
           fontFamily='orbitron'
           textAlign='justify'
           w={[300, 400, 600, 1000]}
+          color='gray.200'
         >
           Venha comigo e te mostro como funciona
         </Text>
         <Flex direction='row' gap={2} ml={[0, 0, -200, -300, -400]} >
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={QrCode} w={16} h={16} color="red.500" /></Flex>
-          <Text w={[300, 400, 400, 500, 600]}>Faça a integração do seu WhatsApp  com o  Zapbot de forma simples e rápida!<br /> Basta escanear o QR Code disponível na plataforma</Text>
+          <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Faça a integração do seu WhatsApp  com o  Zapbot de forma simples e rápida!<br /> Basta escanear o QR Code disponível na plataforma</Text>
         </Flex>
         <Flex direction='row' gap={2} ml={[0, 0, 300, 400, 500]} >
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={ChalkboardTeacher} w={16} h={16} color="pink.500" /></Flex>
-          <Text w={[300, 400, 400, 500, 600]}>Inclua toda equipe no Bate Papo ao vivo inteligente do Zapbot para atender e vender</Text>
+          <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Inclua toda equipe no Bate Papo ao vivo inteligente do Zapbot para atender e vender</Text>
         </Flex>
         <Flex direction='row' gap={2} ml={[0, 0, -200, -300, -400]} >
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={Robot} w={16} h={16} color="primary.500" /></Flex>
-          <Text w={[300, 400, 400, 500, 600]}>Otimize seu atendimento selecionando os robôs ideais para suas necessidades. Contamos com uma extensa biblioteca de robôs prontos para você escolher e utilizar de forma simples e eficiente</Text>
+          <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Otimize seu atendimento selecionando os robôs ideais para suas necessidades. Contamos com uma extensa biblioteca de robôs prontos para você escolher e utilizar de forma simples e eficiente</Text>
         </Flex>
         <Flex direction='row' gap={2} ml={[0, 0, 300, 400, 500]} >
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={CubeFocus} w={16} h={16} color="yellow.500" /></Flex>
-          <Text w={[300, 400, 400, 500, 600]}>Personalize a interação com seus clientes ao definir as palavras-chave que acionarão os robôs selecionados. As respostas automáticas serão ativadas de maneira precisa e alinhada às necessidades do seu público</Text>
+          <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Personalize a interação com seus clientes ao definir as palavras-chave que acionarão os robôs selecionados. As respostas automáticas serão ativadas de maneira precisa e alinhada às necessidades do seu público</Text>
         </Flex>
         <Flex direction='row' gap={2} ml={[0, 0, -200, -300, -400]} >
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={RocketLaunch} w={16} h={16} color="blue.500" /></Flex>
-          <Text w={[300, 400, 400, 500, 600]}>Desfrute de total comodidade enquanto nossos robôs automatizam o atendimento e impulsionam suas vendas, trabalhando incansavelmente para o sucesso do seu negócio, assim você se concentre em outros aspectos</Text>
+          <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Desfrute de total comodidade enquanto nossos robôs automatizam o atendimento e impulsionam suas vendas, trabalhando incansavelmente para o sucesso do seu negócio, assim você se concentre em outros aspectos</Text>
         </Flex>
         <Image mt={[1, 10, 10, 20]} src='/home/screen_notebook.png' alt='tela computador' px={10} />
       </Flex>
