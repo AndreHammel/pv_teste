@@ -31,11 +31,11 @@ export default function Header() {
                 <Flex
                   gap={12}
                 >
-                  <Link href="#tools" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>ferramentas</Link>
-                  <Link href="#demo" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>demo</Link>
-                  <Link href="#prices" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>planos</Link>
-                  <Link href="#faq" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>faq</Link>
-                  <Link href="#about" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>quem somos</Link>
+                  <Link color='gray.200' href="#tools" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>ferramentas</Link>
+                  <Link color='gray.200' href="#demo" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>demo</Link>
+                  <Link color='gray.200' href="#prices" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>planos</Link>
+                  <Link color='gray.200' href="#faq" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>faq</Link>
+                  <Link color='gray.200' href="#about" textTransform='uppercase' fontWeight='bold' _hover={{ color: 'primary.500' }}>quem somos</Link>
                 </Flex>
               )
               : (<Menu>
@@ -72,7 +72,7 @@ export default function Header() {
               borderColor='primary.300'
               background='transparent'
               borderRadius='xl'
-              color='red.500'
+              color='gray.200'
               _hover={{ background: 'primary.300' }}
             >
               <Icon
