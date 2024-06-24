@@ -23,7 +23,7 @@ export default function Footer() {
             <Image src='/home/FullLogo_darkmode.png' alt='main logo' w='130px' />
           </Box>
           <Flex direction='column' w='300px'>
-            <Text>CNPJ: 99.999.999/0001-99</Text>
+            <Text>CNPJ: 52.651.040/0001-05</Text>
             <Text>Contato: suporte@hiven.com.br</Text>
             <Text>Hiven © 2023</Text>
           </Flex>
