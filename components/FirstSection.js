@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { QrCode, Robot, CubeFocus, RocketLaunch, ChalkboardTeacher } from '@phosphor-icons/react';
 import { paymentLink } from './../contants/contants'
 
+
 export default function FirstSection() {
   const [currentImage, setCurrentImage] = useState(3)
   const [isMobile] = useMediaQuery("(max-width: 768px)")
@@ -98,7 +99,29 @@ export default function FirstSection() {
           <Flex align='center' justify='center' w='80px' h='70px' border='1px solid' borderColor='gray.800' borderRadius='lg'><Icon as={RocketLaunch} w={16} h={16} color="blue.500" /></Flex>
           <Text w={[300, 400, 400, 500, 600]} color='gray.200'>Desfrute de total comodidade enquanto nossos robôs automatizam o atendimento e impulsionam suas vendas, trabalhando incansavelmente para o sucesso do seu negócio, assim você se concentre em outros aspectos</Text>
         </Flex>
-        <Image mt={[1, 10, 10, 20]} src='/home/screen_notebook.png' alt='tela computador' px={10} />
+        {/* <Image mt={[1, 10, 10, 20]} src='/home/screen_notebook.png' alt='tela computador' px={10} /> */}
+        <Flex 
+          mt={10}
+          position='relative' 
+          w='full'
+          justify='center'
+          mb={10}
+        >
+          <Image src='/home/ipad.png' alt='iPad' 
+            w={{ base: '480px',  sm: '500px', md: '550px', lg: '535px' }} 
+            h={{ base: '822px',  sm: '918px',md: '1035px', lg: '1020px' }}/>
+          <Flex
+            position='absolute'
+            top={{ base: '9%', sm:'9%',  md: '10%', lg: '10%'}}
+            left='50%'
+            transform='translateX(-50%)'
+            overflow='hidden'
+            w={{ base: '400px',  sm: '450px',  md: '500px', lg: '490px' }}
+          >
+            <video src='/home/video_c.mp4' controls autoPlay loop muted/>
+          </Flex>
+        </Flex>
+      
       </Flex>
     </>
   )

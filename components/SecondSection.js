@@ -47,13 +47,14 @@ export default function SecondSection() {
           fontFamily='orbitron'
           position='relative'
           color='gray.200'
+          textAlign='center'
         >
           Hiven oferece uma variedade de ferramentas, destacando-se como a plataforma mais intuitiva e fácil de usar disponível no mercado
           {
             isScrolled && (
               <motion.div animate={controls} >
-                <Image position='absolute' top='50px' left='-10px' src='/home/underline1.png' alt='' />
-                <Image position='absolute' top='50px' left='-10px' src='/home/underline2.png' alt='' />
+                <Image position='absolute' top='50px' left='120px' src='/home/underline1.png' alt='' />
+                <Image position='absolute' top='50px' left='120px' src='/home/underline2.png' alt='' />
               </motion.div>
             )
           }

@@ -1,14 +1,14 @@
-
+// 'https://www.youtube.com/embed/Ih2oJdB1cxE'
 
 const enterLink = 'https://www.youtube.com/'
 const paymentLink = 'https://www.youtube.com/'
-const starterPrice = '199'
-const proPrice = '297'
-const demoVideoLink = 'https://www.youtube.com/embed/Ih2oJdB1cxE'
-const facebookLink = ''
-const instagranLink = ''
-const youtubeLink = ''
-const linkedinLink = ''
+const starterPrice = '0'
+const proPrice = '197'
+const demoVideoLink = 'https://www.youtube.com/embed/8OdC_nwKnLc'
+const facebookLink = 'https://www.youtube.com/@HivenOficial'
+const instagranLink = 'https://www.youtube.com/@HivenOficial'
+const youtubeLink = 'https://www.youtube.com/@HivenOficial'
+const linkedinLink = 'https://www.youtube.com/@HivenOficial'
 const starter = [
   "Número de WhatsApp vinculado",
   "Painel de controle acessível",

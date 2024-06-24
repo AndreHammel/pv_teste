@@ -10,7 +10,7 @@ export default function ThirdSection() {
         bg='#131215'
         direction='column'
         justify='center'
-        align='start'
+        align='center'
         w={[300, 400, 600, 1000]}
         position='relative'
       >
@@ -21,6 +21,7 @@ export default function ThirdSection() {
           fontFamily='orbitron'
           position='relative'
           color='gray.200'
+          textAlign='center'
         >
           Veja uma Demonstração Rápida:
         </Text>

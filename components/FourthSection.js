@@ -27,7 +27,7 @@ export default function FourthSection() {
         </Text>
         <Flex w='full' gap={8} direction={['column', 'column', 'column', 'row']}>
           <Flex h={[740, 650, 650, 850]} overflow='hidden' direction='column' w={[320, 400, 600, 320]} border='1px solid' borderColor='gray.600' borderRadius='xl'>
-            <Flex h={12} bg='green.700' align='center' justify='center' fontSize='2rem' fontWeight='medium'>STARTER</Flex>
+            <Flex h={12} bg='green.700' align='center' justify='center' fontSize='2rem' fontWeight='medium'>FREEMIUM</Flex>
             <Box h={[220, 280, 160, 280]} >
               <Flex w='full' justify='center' align='center' mt={4} gap={1}>
                 <Text fontSize='2.5rem' color='gray.200' fontWeight='medium'>R${starterPrice}</Text>
